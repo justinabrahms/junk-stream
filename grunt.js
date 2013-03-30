@@ -1,3 +1,4 @@
+"use strict";
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -25,7 +26,8 @@ module.exports = function(grunt) {
         undef: true,
         boss: true,
         eqnull: true,
-        node: true
+        node: true,
+        laxcomma: true
       },
       globals: {
         exports: true

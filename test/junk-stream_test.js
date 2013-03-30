@@ -1,3 +1,4 @@
+"use strict";
 var junk_stream = require('../lib/junk-stream.js');
 
 exports['junk_stream'] = {
